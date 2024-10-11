@@ -24,7 +24,7 @@ You can send and receive events between event buses in AWS accounts within the s
   - On the receiver account, set up one or more rules that match events that come from the sender account.
 
 - Scripts:
-  - Script for Deploying EventBu s rules with a Cross Account EventBus as a Target: [deploy.ps1](https://spektrasystems.sharepoint.com/:u:/s/ISVTS/Ec-trXQVEjlNl2oTWUeJ_vgBIy1cFMh0gmPbeu5cAJSmzA?e=c0UFT8) 
+  - Script for Deploying EventBus rules with a Cross Account EventBus as a Target: [deploy.ps1](https://spektrasystems.sharepoint.com/:u:/s/ISVTS/Ec-trXQVEjlNl2oTWUeJ_vgBIy1cFMh0gmPbeu5cAJSmzA?e=c0UFT8) 
 
   - Script for Validating the creation of EventBus rules with a Cross Account EventBus as a Target: [validate.ps1](https://spektrasystems.sharepoint.com/:u:/s/ISVTS/EdsVS_wGiqtIttct2upWsx8Bfqxt22ZdVVZKBLHJs9T_uA?e=B3Fqxi) 
 
