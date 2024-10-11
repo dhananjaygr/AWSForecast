@@ -96,6 +96,8 @@ You can send and receive events between event buses in AWS accounts within the s
 
 - Service Wise Log Analysis: [data_in_events.xlsx](https://spektrasystems.sharepoint.com/:x:/s/ISVTS/ERf28KRSaxVPoOxVw_VlTz0BUstaCk9rwH0HqCB8RY_OBA?e=wWhVCk) 
 
+- EVENTBRIDGE: [EVENTBRIDGE COMPLETE SETUP](https://spektrasystems.sharepoint.com/:b:/s/ISVTS/Ec0axSGs-eNAu1V-yhxZa5gBNPZZ24UlKBGnuGp7LnV0bQ?e=IVKAC1)
+
 ### Testing Scenario: 
 
 
