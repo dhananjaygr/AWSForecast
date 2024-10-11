@@ -98,6 +98,25 @@ You can send and receive events between event buses in AWS accounts within the s
 
 - EVENTBRIDGE: [EVENTBRIDGE COMPLETE SETUP](https://spektrasystems.sharepoint.com/:b:/s/ISVTS/Ec0axSGs-eNAu1V-yhxZa5gBNPZZ24UlKBGnuGp7LnV0bQ?e=IVKAC1)
 
-### Testing Scenario: 
+### Testing: 
 
+1. Log in to the CL portal and navigate to the required tenant (WIZ). On the left-hand side of the page, you will see the ODL section.
+
+2. Navigate to the **ODL (1)** section in the left menu and click on the **edit (2)** button.
+
+   ![](./img/02.png)
+
+3. Scroll down to the **Enable Credit-Based Allocation (1)** section and select the checkbox.
+   
+   - Provide the **Credit Limit (2).**
+
+   - Set the Threshold Limit for email alerts for both the **Instructor (3)** and the **Attendee (4).**
+
+   - Finally, specify the **Action on Credit Expiry (5).**
+
+   ![](./img/03.png)
+
+4. Then scroll down and click on the **Submit** button.
+
+   ![](./img/04.png)
 
