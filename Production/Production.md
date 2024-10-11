@@ -51,18 +51,47 @@ You can send and receive events between event buses in AWS accounts within the s
 
      Link: https://aws.amazon.com/cloudtrail/pricing/
 
-	   - For a free tier:
-        
-       | Services | Cost | 
-       |----------|----------|
-       | 1. Event History | CloudTrail logs management events across AWS services by default and is available for no charge. You can view, search and download the most recent 90-day history of your account’s control plane         activity at no additional cost using CloudTrail in the CloudTrail console. You can also use the CloudTrail lookup-events API to achieve this.|
-       | 2. Trails  | Creating trails allows you to deliver one copy of your ongoing management events to your Amazon Simple Storage Service (S3) bucket for free.  | 
-        
-     - For a paid tier:
+     -  For a free tier:
+ 
+        | Services | Cost | 
+        |----------|----------|
+        | 1. Event History | CloudTrail logs management events across AWS services by default and is available for no charge. You can view, search and download the most recent 90-day history of your account’s control 	plane activity at no additional cost using CloudTrail in the CloudTrail console. You can also use the CloudTrail lookup-events API to achieve this.|
+        | 2. Trails  | Creating trails allows you to deliver one copy of your ongoing management events to your Amazon Simple Storage Service (S3) bucket for free.  |  
 
-       | Event Bus services | Cost | 
-       |----------|----------|
-       | Trails  | $2.00 per 100,000 management events delivered after the first free copy.   |
+        
+     -  For a paid tier:
+
+        | Event Bus services | Cost | 
+        |----------|----------|
+        | Trails  | $2.00 per 100,000 management events delivered after the first free copy.   |
       
-  3. 
-   
+- Resources Deployed in this Approach with their name: 
+
+  | AWS Service Name              | Rule Name               |
+  |-------------------------------|-------------------------|
+  | EC2 Instance                  | ec2-instances-rule      |
+  | Elastic Kubernetes Service     | eks-rule                |
+  | Service Catalog               | service-catalog-rule    |
+  | Relational Database Service    | rds-rule                |
+  | CodeCommit                    | codecommit-rule         |
+  | Simple Storage Service        | s3-rule                 |
+  | Elastic Container Service      | ecs-rule                |
+  | Location Service              | location-service-rule   |
+  | CloudTrail                    | cloudtrail-rule         |
+  | CloudWatch                    | cloudwatch-rule         |
+  | CodePipeline                  | codepipeline-rule       |
+  | Elastic Container Registry     | ecr-rule                |
+  | Elastic LoadBalancer          | elb-rule                |
+  | Glacier                       | glacier-rule            |
+  | Lambda                        | lambda-rule             |
+
+
+  | AWS Service        | Name                                   |
+  |--------------------|----------------------------------------|
+  | Event Bus          | Default                                |
+  | CloudTrail Trail   | Wiz-trail                              |
+  | IAM Role           | CrossAccountEventBusPutEventRole       |
+  | IAM Policy         | CrossAccountEventBusPutEventRole-Policy |
+
+- Service Wise Log Analysis: 
+ 
