@@ -31,7 +31,8 @@ You can send and receive events between event buses in AWS accounts within the s
   - Script for Deleting the created resources in EventBus: [delete.ps1](https://spektrasystems.sharepoint.com/:u:/s/ISVTS/ETjrwT2KG2tFn6kURfJi8rMBP3_twn24K67Q_3_8y7k_iA?e=mrqZQ5) 
 
 - PRICING
-  1. EVENT BRIDGE PRICING:
+
+  1. **EVENT BRIDGE PRICING:**
 
      Link: https://aws.amazon.com/eventbridge/pricing/
     
@@ -47,7 +48,7 @@ You can send and receive events between event buses in AWS accounts within the s
 
      NOTE: Events sent from one account to another are charged to the sending account as custom events. The receiving account is not charged.
 
-  2. CLOUD TRAIL PRICING: 
+  2. **CLOUD TRAIL PRICING:**
 
      Link: https://aws.amazon.com/cloudtrail/pricing/
 
