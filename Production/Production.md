@@ -120,3 +120,14 @@ You can send and receive events between event buses in AWS accounts within the s
 
    ![](./img/04.png)
 
+5. Now, click on the **User** section to deploy a user.
+
+   ![](./img/05.png)
+
+6. Click on **+ ADD USER.**
+
+   ![](./img/06.png)
+
+7. Next, provide the following details for the user: **First Name (1), Last Name (2),** and **Email(3).** Then, click on the **Submit (4)** button.
+
+   ![](./img/07.png)
