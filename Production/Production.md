@@ -18,27 +18,51 @@ You can send and receive events between event buses in AWS accounts within the s
 
 ![](./img/01.png) 
 
-Configuring EventBridge to send events to or receive events from an event bus in a different account include the following:
-- On the receiver account, edit the permissions on an event bus to allow specified AWS accounts, an organization, or all AWS accounts to send events to the receiver account.
-- On the sender account, set up one or more rules that have the receiver account's event bus as the target.
-- On the receiver account, set up one or more rules that match events that come from the sender account.
+- Configuring EventBridge to send events to or receive events from an event bus in a different account include the following:
+  - On the receiver account, edit the permissions on an event bus to allow specified AWS accounts, an organization, or all AWS accounts to send events to the receiver account.
+  - On the sender account, set up one or more rules that have the receiver account's event bus as the target.
+  - On the receiver account, set up one or more rules that match events that come from the sender account.
 
-Scripts:
-- Script for Deploying EventBu s rules with a Cross Account EventBus as a Target:
+- Scripts:
+  - Script for Deploying EventBu s rules with a Cross Account EventBus as a Target:
 
-  Link:
+  - Script for Validating the creation of EventBus rules with a Cross Account EventBus as a Target:
 
-- Script for Validating the creation of EventBus rules with a Cross Account EventBus as a Target:
+  - Script for Deleting the created resources in EventBus: 
 
-  Link:
+- PRICING
+  1. EVENT BRIDGE PRICING:
 
-- Script for Deleting the created resources in EventBus: 
-
-  Link:
-
-PRICING
-1.	EVENT BRIDGE PRICING:
-    Link: https://aws.amazon.com/eventbridge/pricing/
+     Link: https://aws.amazon.com/eventbridge/pricing/
     
--  Event Bus:
+     -  Event Bus:
 
+        | Event Bus services | Cost | 
+        |----------|----------|
+        | 1. AWS default service events  | Free   |
+        | 2. Custom events   | $1.00/million custom events published  | 
+        | 3. Cross-account events   | $1.00/million events sent   |
+
+     Size of payloads: Each 64 KB chunk of a payload is billed as one event (for example, an event with a 256 KB payload is billed as requests).
+
+     NOTE: Events sent from one account to another are charged to the sending account as custom events. The receiving account is not charged.
+
+  2. CLOUD TRAIL PRICING: 
+
+     Link: https://aws.amazon.com/cloudtrail/pricing/
+
+	   - For a free tier:
+        
+       | Services | Cost | 
+       |----------|----------|
+       | 1. Event History | CloudTrail logs management events across AWS services by default and is available for no charge. You can view, search and download the most recent 90-day history of your account’s control plane         activity at no additional cost using CloudTrail in the CloudTrail console. You can also use the CloudTrail lookup-events API to achieve this.|
+       | 2. Trails  | Creating trails allows you to deliver one copy of your ongoing management events to your Amazon Simple Storage Service (S3) bucket for free.  | 
+        
+     - For a paid tier:
+
+       | Event Bus services | Cost | 
+       |----------|----------|
+       | Trails  | $2.00 per 100,000 management events delivered after the first free copy.   |
+      
+  3. 
+   
