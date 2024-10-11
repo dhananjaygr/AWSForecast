@@ -24,11 +24,11 @@ You can send and receive events between event buses in AWS accounts within the s
   - On the receiver account, set up one or more rules that match events that come from the sender account.
 
 - Scripts:
-  - Script for Deploying EventBu s rules with a Cross Account EventBus as a Target:
+  - Script for Deploying EventBu s rules with a Cross Account EventBus as a Target: [deploy.ps1](https://spektrasystems.sharepoint.com/:u:/s/ISVTS/Ec-trXQVEjlNl2oTWUeJ_vgBIy1cFMh0gmPbeu5cAJSmzA?e=c0UFT8) 
 
-  - Script for Validating the creation of EventBus rules with a Cross Account EventBus as a Target:
+  - Script for Validating the creation of EventBus rules with a Cross Account EventBus as a Target: [validate.ps1](https://spektrasystems.sharepoint.com/:u:/s/ISVTS/EdsVS_wGiqtIttct2upWsx8Bfqxt22ZdVVZKBLHJs9T_uA?e=B3Fqxi) 
 
-  - Script for Deleting the created resources in EventBus: 
+  - Script for Deleting the created resources in EventBus: [delete.ps1](https://spektrasystems.sharepoint.com/:u:/s/ISVTS/ETjrwT2KG2tFn6kURfJi8rMBP3_twn24K67Q_3_8y7k_iA?e=mrqZQ5) 
 
 - PRICING
   1. EVENT BRIDGE PRICING:
@@ -93,5 +93,5 @@ You can send and receive events between event buses in AWS accounts within the s
   | IAM Role           | CrossAccountEventBusPutEventRole       |
   | IAM Policy         | CrossAccountEventBusPutEventRole-Policy |
 
-- Service Wise Log Analysis: 
+- Service Wise Log Analysis: [data_in_events.xlsx](https://spektrasystems.sharepoint.com/:x:/s/ISVTS/ERf28KRSaxVPoOxVw_VlTz0BUstaCk9rwH0HqCB8RY_OBA?e=wWhVCk) 
  
