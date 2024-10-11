@@ -14,7 +14,7 @@ Before you begin looking into the AWS Forecast approach in CloudLabs, ensure you
 
 #### Using Cross Account Event Bus as a Target in the Rules
 
-You can send and receive events between event buses in AWS accounts within the same Region in all Regions and between accounts in different Regions as long as the destination Region is a supported cross-Region destination Region.
+You can send and receive events between event buses in AWS accounts within the same Region in all Regions and between accounts in different Regions as long as the destination Region is a supported [cross-Region](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-cross-region.html) destination Region.
 
 ![](./img/01.png) 
 
