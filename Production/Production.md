@@ -131,3 +131,9 @@ You can send and receive events between event buses in AWS accounts within the s
 7. Next, provide the following details for the user: **First Name (1), Last Name (2),** and **Email(3).** Then, click on the **Submit (4)** button.
 
    ![](./img/07.png)
+
+8. Once the user is successfully deployed, proceed to deploy the required resources in the respective cloud environment where the deployment has occurred.
+
+   ![](./img/08.png)
+
+9.
