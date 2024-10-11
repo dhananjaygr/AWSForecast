@@ -2,7 +2,7 @@
 
 ### Overview
 
-
+The AWS Forecast approach has now been implemented using a Cross Account Event Bus as a target in the rules, allowing users to view and monitor AWS Forecast costs.   
 
 ### Prerequisites
 
@@ -95,4 +95,7 @@ You can send and receive events between event buses in AWS accounts within the s
   | IAM Policy         | CrossAccountEventBusPutEventRole-Policy |
 
 - Service Wise Log Analysis: [data_in_events.xlsx](https://spektrasystems.sharepoint.com/:x:/s/ISVTS/ERf28KRSaxVPoOxVw_VlTz0BUstaCk9rwH0HqCB8RY_OBA?e=wWhVCk) 
- 
+
+### Testing Scenario: 
+
+
